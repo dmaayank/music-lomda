@@ -60,11 +60,28 @@
         },
         {
           "name": "Electric Piano",
-          "info": "A keyboard instrument that produces sounds mechanically and converts them into electrical signals via pickups."
+          "original_name": "Fender Rhodes / Wurlitzer (Famous models)",
+          "created": "1929 (First patents)",
+          "creator": "Harold Rhodes / Benjamin Miessner",
+          "notable_players": [
+            "Ray Charles",
+            "Herbie Hancock",
+            "Stevie Wonder",
+            "Bill Evans"
+          ],
+          "history": "Unlike a digital keyboard, an electric piano is a mechanical instrument. When you press a key, a hammer strikes a metal tine or reed, and a pickup (like on a guitar) turns that vibration into an electrical signal. It became the signature sound of 70s Jazz, Fusion, and R&B."
         },
         {
           "name": "Celesta",
-          "info": "A struck idiophone operated by a keyboard; it looks like a small upright piano but sounds like glockenspiel bells."
+          "original_name": "Céleste",
+          "created": "1886",
+          "creator": "Auguste Mustel",
+          "notable_players": [
+            "Pyotr Ilyich Tchaikovsky",
+            "Thelonious Monk",
+            "John Williams"
+          ],
+          "history": "The celesta looks like a tiny upright piano, but inside, the hammers strike metal plates instead of strings. It produces a magical, bell-like sound. Its most famous debut was in Tchaikovsky's 'Dance of the Sugar Plum Fairy'."
         }
       ]
     },
