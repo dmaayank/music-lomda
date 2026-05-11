@@ -1,0 +1,375 @@
+/* ===== MAIN CONTAINER ===== */
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* centers vertically */
+  align-items: center;
+  /* centers horizontally */
+  min-height: 100vh;
+  width: 100%;
+  text-align: center;
+  font-family: "greekFreak", serif;
+  color: #6D5132;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+
+/* ===== HEADER (QUESTION + TIMER) ===== */
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 20px;
+}
+
+/* ===== QUESTION ===== */
+.quiz-question {
+  margin: 0;
+  /* Remove default margins that might be pushing text away */
+  font-size: 2.6rem;
+}
+
+/* ===== TIMER ===== */
+.timer-display {
+  font-size: 1.2rem;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 5px 15px;
+  border-radius: 20px;
+  color: #FFECCF;
+  border: 1px solid #987A58;
+}
+
+.timer-display.emergency {
+  color: #ff4d4d;
+  border-color: #ff4d4d;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* ===== OPTIONS ===== */
+.options-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 450px;
+}
+
+/* ===== OPTION BUTTON ===== */
+.option-btn {
+  font-family: "greekFreak";
+  font-size: 1.4rem;
+  padding: 14px;
+  background-color: #987A58;
+  color: #FFECCF;
+  border: 2px solid #574026;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.option-btn:hover {
+  background-color: #6D5132;
+  transform: scale(1.03);
+}
+
+.option-btn.selected {
+  background-color: #574026;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== NAV BUTTONS ===== */
+.quiz-nav-btn,
+.start-quiz-btn,
+.restart {
+  font-family: "greekFreak";
+  padding: 12px 24px;
+  background-color: #987A58;
+  color: #FFECCF;
+  border: 2px solid #574026;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.4rem;
+  margin-top: 20px;
+  transition: 0.2s ease;
+}
+
+.quiz-nav-btn:hover,
+.start-quiz-btn:hover,
+.restart:hover {
+  background-color: #574026;
+  transform: scale(1.05);
+}
+
+/* ===== CHOICE BUTTONS (if used separately) ===== */
+.choice-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.button.choice {
+  background-color: #987A58;
+  color: #FFECCF;
+  border: 2px solid #574026;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: 0.15s;
+  min-width: 180px;
+  padding: 14px 20px;
+  font-size: 1.2rem;
+
+}
+
+.button.choice:hover {
+  transform: scale(1.1) rotate(-2deg);
+}
+
+.button.choice:active {
+  transform: scale(0.95);
+  background-color: #7a6246;
+}
+
+/* ===== TEXT ===== */
+.hint-text {
+  font-style: italic;
+  font-size: 1.3rem;
+  opacity: 0.8;
+  margin-top: 10px;
+}
+
+.quiz-text,
+.hint-text {
+  margin: 0;
+  /* Prevents unwanted spacing */
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+
+  .quiz-question {
+    font-size: 1.8rem;
+    width: 90%;
+  }
+
+  .options-grid {
+    width: 90%;
+  }
+
+  .option-btn {
+    font-size: 1.2rem;
+    padding: 16px;
+  }
+
+  .choice-container {
+    flex-direction: column;
+  }
+
+  .button.choice {
+    width: 70vw;
+    min-height: 60px;
+  }
+
+  .quiz-nav-btn,
+  .start-quiz-btn,
+  .restart {
+    width: 70vw;
+    font-size: 1.2rem;
+  }
+
+
+}
+
+.choice-container,
+.button.choice,
+.start-quiz-btn,
+.restart {
+  position: static !important;
+  bottom: auto !important;
+  top: auto !important;
+  left: auto !important;
+  transform: none !important;
+}
+
+.header-group h1,
+.header-group p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header stays at the top */
+.header-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-group {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  height: auto !important;
+  /* Prevents the box from stretching */
+  padding: 0 !important;
+  /* Removes the 'purple' area */
+  margin: 0 !important;
+  gap: 5px !important;
+  /* Keeps text lines tight */
+}
+
+.header-group h1,
+.header-group p {
+  margin: 0 !important;
+  /* Removes default browser spacing */
+  padding: 0 !important;
+  line-height: 1.2 !important;
+}
+
+
+
+.header-group {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  height: auto !important;
+  flex: 0 0 auto !important;
+  gap: 10px !important;
+}
+
+/* 2. MOBILE VIEW (Small Screens) */
+@media (max-width: 768px) {
+  .start-screen {
+    padding-top: 60px !important;
+    /* Nudge text into blue area */
+    gap: 80px !important;
+    /* Space between text and buttons */
+  }
+}
+
+@media (min-width: 769px) {
+  .start-screen {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100vh !important;
+    /* Ensure it spans the whole screen height */
+    justify-content: flex-start !important;
+    /* Align content to the top */
+    padding-top: 40px !important;
+    box-sizing: border-box !important;
+  }
+
+  .header-group {
+    flex: 0 0 auto !important;
+    margin-bottom: 0 !important;
+  }
+
+  .choice-container {
+    /* THE MAGIC TRICK: This pushes the buttons to the bottom of the screen */
+    margin-top: auto !important;
+
+    /* This keeps them from hitting the very bottom border */
+    margin-bottom: 120px !important;
+
+    display: flex !important;
+    justify-content: center !important;
+    gap: 30px !important;
+  }
+}
+
+/* Buttons stay at the bottom */
+.choice-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* 1. THE CONTAINER: Start everything from the top */
+.start-screen {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  /* Forces content to stay separate */
+  align-items: center !important;
+  height: 100vh !important;
+  width: 100% !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+
+  /* Reset padding to 0 so we can control it in the media queries below */
+  padding: 0 !important;
+}
+
+/* 2. THE TEXT: Lock it to the top */
+.header-group {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  flex: 0 0 auto !important;
+  /* Prevents it from stretching */
+}
+
+/* 3. THE BUTTONS: Anchor them to the bottom */
+.choice-container {
+  display: flex !important;
+  justify-content: center !important;
+  margin-top: 40vh !important;
+  /* This is the "spring" that separates them */
+}
+
+/* 4. MOBILE ADJUSTMENTS */
+@media (max-width: 768px) {
+  .start-screen {
+    padding-top: 40px !important;
+    /* Nudge text into the blue graphic */
+  }
+
+  .choice-container {
+    margin-bottom: 60px !important;
+    /* Nudge buttons away from bottom edge */
+    flex-direction: column !important;
+    gap: 15px !important;
+    margin-top: 50px !important;
+    /* This is the "spring" that separates them */
+
+  }
+}
+
+/* 5. LAPTOP ADJUSTMENTS */
+@media (min-width: 769px) {
+  .start-screen {
+    padding-top: 60px !important;
+    /* Slightly more nudge for big screen */
+  }
+
+  .choice-container {
+    margin-bottom: 100px !important;
+    /* Keep buttons clear of bottom border */
+    flex-direction: row !important;
+    gap: 30px !important;
+    margin-top: 40vh !important;
+    /* This is the "spring" that separates them */
+
+  }
+}

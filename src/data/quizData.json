@@ -1,0 +1,184 @@
+{
+  "finalQuiz": [
+    {
+      "id": 1,
+      "question": "Who were Achilles' parents?",
+      "options": ["Peleus and Thetis", "Zeus and Hera", "Priam and Hecuba", "Apollo and Leto"],
+      "correctAnswer": "Peleus and Thetis"
+    },
+    {
+      "id": 2,
+      "question": "What was Achilles' greatest weakness?",
+      "options": ["His pride", "His heel", "His shield", "His sword"],
+      "correctAnswer": "His heel"
+    },
+    {
+      "id": 3,
+      "question": "Which hero completed the Twelve Labors?",
+      "options": ["Perseus", "Theseus", "Heracles", "Jason"],
+      "correctAnswer": "Heracles"
+    },
+    {
+      "id": 4,
+      "question": "Which creature did Heracles defeat as one of his labors?",
+      "options": ["Medusa", "Hydra", "Minotaur", "Chimera"],
+      "correctAnswer": "Hydra"
+    },
+    {
+      "id": 5,
+      "question": "Who did Perseus defeat using a reflective shield?",
+      "options": ["Hydra", "Medusa", "Cyclops", "Cerberus"],
+      "correctAnswer": "Medusa"
+    },
+    {
+      "id": 6,
+      "question": "What city did Perseus eventually found?",
+      "options": ["Athens", "Sparta", "Mycenae", "Troy"],
+      "correctAnswer": "Mycenae"
+    },
+    {
+      "id": 7,
+      "question": "Orpheus was famous for what special ability?",
+      "options": [
+        "Super strength",
+        "Flying with wings",
+        "Music that could charm all living things",
+        "Turning invisible"
+      ],
+      "correctAnswer": "Music that could charm all living things"
+    },
+    {
+      "id": 8,
+      "question": "Why did Orpheus lose Eurydice?",
+      "options": [
+        "He broke a promise to Zeus",
+        "He looked back at her before reaching the surface",
+        "Hades tricked him",
+        "She chose to stay in the Underworld"
+      ],
+      "correctAnswer": "He looked back at her before reaching the surface"
+    },
+    {
+      "id": 9,
+      "question": "Which monster did Theseus defeat in Crete?",
+      "options": ["Hydra", "Minotaur", "Cerberus", "Chimera"],
+      "correctAnswer": "Minotaur"
+    },
+    {
+      "id": 10,
+      "question": "What helped Theseus escape the Labyrinth?",
+      "options": [
+        "A magic sword",
+        "A ball of thread",
+        "A flying horse",
+        "A golden shield"
+      ],
+      "correctAnswer": "A ball of thread"
+    },
+    {
+      "id": 11,
+      "question": "Atalanta was known for her skill in what?",
+      "options": ["Sword fighting", "Archery and running", "Magic", "Sailing"],
+      "correctAnswer": "Archery and running"
+    },
+    {
+      "id": 12,
+      "question": "How was Atalanta defeated in a race?",
+      "options": [
+        "She tripped",
+        "She was injured",
+        "Golden apples distracted her",
+        "She got lost"
+      ],
+      "correctAnswer": "Golden apples distracted her"
+    },
+    {
+      "id": 13,
+      "question": "Odysseus is best known for his role in which war?",
+      "options": ["Persian War", "Trojan War", "Peloponnesian War", "Titan War"],
+      "correctAnswer": "Trojan War"
+    },
+    {
+      "id": 14,
+      "question": "What clever idea did Odysseus use to defeat Troy?",
+      "options": [
+        "A secret tunnel",
+        "Poisoned arrows",
+        "The Trojan Horse",
+        "A sea monster"
+      ],
+      "correctAnswer": "The Trojan Horse"
+    },
+    {
+      "id": 15,
+      "question": "Jason led a group called the...",
+      "options": ["Myrmidons", "Argonauts", "Spartans", "Titans"],
+      "correctAnswer": "Argonauts"
+    },
+    {
+      "id": 16,
+      "question": "What was Jason searching for?",
+      "options": ["The Golden Apple", "The Golden Fleece", "The Sword of Zeus", "The Shield of Athena"],
+      "correctAnswer": "The Golden Fleece"
+    },
+    {
+      "id": 17,
+      "question": "Hector was a prince of which city?",
+      "options": ["Athens", "Sparta", "Troy", "Corinth"],
+      "correctAnswer": "Troy"
+    },
+    {
+      "id": 18,
+      "question": "Who killed Hector?",
+      "options": ["Odysseus", "Achilles", "Heracles", "Theseus"],
+      "correctAnswer": "Achilles"
+    },
+    {
+      "id": 19,
+      "question": "Bellerophon defeated which monster?",
+      "options": ["Hydra", "Chimera", "Minotaur", "Medusa"],
+      "correctAnswer": "Chimera"
+    },
+    {
+      "id": 20,
+      "question": "What creature helped Bellerophon fight the Chimera?",
+      "options": ["Cerberus", "Pegasus", "Cyclops", "Griffin"],
+      "correctAnswer": "Pegasus"
+    },
+    {
+      "id": 21,
+      "question": "Which hero tried to escape death using music?",
+      "options": ["Orpheus", "Jason", "Achilles", "Hector"],
+      "correctAnswer": "Orpheus"
+    },
+    {
+      "id": 22,
+      "question": "Which hero was known for incredible physical strength?",
+      "options": ["Odysseus", "Heracles", "Orpheus", "Jason"],
+      "correctAnswer": "Heracles"
+    },
+    {
+      "id": 23,
+      "question": "Which hero used intelligence more than strength?",
+      "options": ["Heracles", "Achilles", "Odysseus", "Bellerophon"],
+      "correctAnswer": "Odysseus"
+    },
+    {
+      "id": 24,
+      "question": "Which hero accidentally caused his own downfall because of pride?",
+      "options": ["Bellerophon", "Perseus", "Theseus", "Jason"],
+      "correctAnswer": "Bellerophon"
+    },
+    {
+      "id": 25,
+      "question": "Which two heroes fought each other during the Trojan War?",
+      "options": [
+        "Achilles and Hector",
+        "Jason and Perseus",
+        "Heracles and Odysseus",
+        "Theseus and Bellerophon"
+      ],
+      "correctAnswer": "Achilles and Hector"
+    }
+  ]
+}

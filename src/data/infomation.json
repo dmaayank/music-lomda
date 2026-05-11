@@ -1,0 +1,105 @@
+{
+  "musicalInstruments": [
+    {
+      "family": "Keyboard",
+      "info": "The keyboard family consists of musical instruments operated by a keyboard—a row of levers pressed by the fingers. These instruments are classified by their sound production method, including string (piano, harpsichord), wind (organ), idiophone (celesta), and electronic (synthesizers) types, spanning genres from classical to modern.",
+      "instruments": [
+        {
+          "name": "Piano",
+          "original_name": "gravicembalo col piano e forte (Italian)",
+          "created": "c. 1700, Italy",
+          "creator": "Bartolomeo Cristofori",
+          "notable_players": [
+            "Ludwig van Beethoven",
+            "Frédéric Chopin",
+            "Martha Argerich",
+            "Lang Lang",
+            "Wolfgang Amadeus Mozart",
+            "Sergei Rachmaninoff"
+          ],
+          "history": "Before the piano became like how we know it, it had a lot of other predecessors. The Harpsichord (14th Century), and the Clavichord. However, they all lacked the flexibility and volume that was needed off a musical instrument. In 1709, an Italian clavichord maker Bartolomeo Cristofori invented the pianoforte - what eventually became the modern piano ."
+        },
+        {
+          "name": "Pipe Organ",
+          "original_name": "ὄργανον (Ancient Greek)",
+          "created": "3rd century BC, Alexandria",
+          "creator": "Ctesibius of Alexandria",
+          "notable_players": [
+            "Johann Sebastian Bach",
+            "Olivier Messiaen",
+            "Marie-Claire Alain",
+            "Dietrich Buxtehude"
+          ],
+          "history": "The first pipe organs were conceived and built in Greece around 200 BC. Later, Greek authors claim that the organ was invented by one man, Ctesibius of Alexandria.  The organ as we know it, with visible pipes played via a keyboard, started to appear in churches and monasteries from around 700 AD, and by the end of the 10th century, the organ could be found in many places of Christian worship around Britain."
+        },
+        {
+          "name": "Accordion",
+          "original_name": "Handäoline (German)",
+          "created": "1822, Berlin",
+          "creator": "Christian Friedrich Ludwig Buschmann",
+          "notable_players": [
+            "Astor Piazzolla",
+            "Art Van Damme",
+            "Viatcheslav Semionov",
+            "Myron Floren",
+            "Kimmo Pohjonen"
+          ],
+          "history": "The accordion was invented in early 19th-century Berlin (Handäoline), by Christian Friedrich Ludwig Buschmann in 1822. It was officially patented as the 'Accordion' by Cyrill Demian in Vienna in 1829, utilizing bellows and free-reeds to produce chords, quickly becoming popular across Europe for folk and dance music."
+        },
+        {
+          "name": "Harpsichord",
+          "original_name": "Clavicembalo",
+          "created": "14th century",
+          "creator": "Unknown (European origins)",
+          "notable_players": [
+            "Domenico Scarlatti",
+            "Wanda Landowska",
+            "Scott Ross"
+          ],
+          "history": "The harpsichord was most likely invented in the late 14th century. By the middle of the 18th century the harpsichord had grown to a normal compass of five full octaves, three or more sets of strings and jacks, and often two keyboards. At this time it began to compete with the new pianoforte, which was capable of playing soft or loud according to the fingers’ pressure on the keys.."
+        },
+        {
+          "name": "Electric Piano",
+          "info": "A keyboard instrument that produces sounds mechanically and converts them into electrical signals via pickups."
+        },
+        {
+          "name": "Celesta",
+          "info": "A struck idiophone operated by a keyboard; it looks like a small upright piano but sounds like glockenspiel bells."
+        }
+      ]
+    },
+    {
+      "family": "String",
+      "instruments": [
+        "Violin",
+        "Cello",
+        "Viola",
+        "Double Bass",
+        "Harp",
+        "Guitar"
+      ]
+    },
+    {
+      "family": "Percussion",
+      "instruments": [
+        "Timpani",
+        "Snare Drum",
+        "Xylophone",
+        "Cymbals",
+        "Bass Drum",
+        "Triangle"
+      ]
+    },
+    {
+      "family": "Woodwind",
+      "instruments": [
+        "Flute",
+        "Oboe",
+        "Clarinet",
+        "Bassoon",
+        "Saxophone",
+        "Piccolo"
+      ]
+    }
+  ]
+}
